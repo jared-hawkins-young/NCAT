@@ -38,18 +38,18 @@ const Layout = () => {
             <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer} ref={menuRef}>
                     <Link to="/" className={styles.headerTitleContainer}>
-                        <h3 className={styles.headerTitle}>N.C. A&T</h3>
+                        <h3 className={styles.headerTitle}>Azure OpenAI + AI Search</h3>
                     </Link>
                     <nav>
                         <ul className={`${styles.headerNavList} ${menuOpen ? styles.show : ""}`}>
                             <li>
-                                <NavLink
+                                {/* <NavLink
                                     to="/"
                                     className={({ isActive }) => (isActive ? styles.headerNavPageLinkActive : styles.headerNavPageLink)}
                                     onClick={() => setMenuOpen(false)}
                                 >
                                     Chat
-                                </NavLink>
+                                </NavLink> */}
                             </li>
                             <li>
                                 <NavLink
