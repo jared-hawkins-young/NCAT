@@ -12,7 +12,6 @@ const GPT4V_EXAMPLES: string[] = [
     "What is NC A&T's mascot?",
     "Im hungry for mexican food on campus where should I go?",
     "How can I apply for the Desk Assistant position?"
-
 ];
 
 interface Props {
