@@ -38,7 +38,7 @@ const Layout = () => {
             <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer} ref={menuRef}>
                     <Link to="/" className={styles.headerTitleContainer}>
-                        <h3 className={styles.headerTitle}>Azure OpenAI + AI Search</h3>
+                        <h3 className={styles.headerTitle}>NC A&T</h3>
                     </Link>
                     <nav>
                         <ul className={`${styles.headerNavList} ${menuOpen ? styles.show : ""}`}>
@@ -49,7 +49,7 @@ const Layout = () => {
                                     onClick={() => setMenuOpen(false)}
                                 >
                                     Chat
-                                </NavLink> */}
+                                </NavLink>
                             </li>
                             <li>
                                 <NavLink
@@ -58,7 +58,7 @@ const Layout = () => {
                                     onClick={() => setMenuOpen(false)}
                                 >
                                     Ask a question
-                                </NavLink>
+                                </NavLink> */}
                             </li>
                         </ul>
                     </nav>
