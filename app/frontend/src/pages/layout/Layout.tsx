@@ -38,6 +38,7 @@ const Layout = () => {
             <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer} ref={menuRef}>
                     <Link to="/" className={styles.headerTitleContainer}>
+                        <img src="/public/bulldog.png" alt="NC A&T Logo" style={{ width: "120px", height: "120px" }} />
                         <h3 className={styles.headerTitle}>NC A&T</h3>
                     </Link>
                     <nav>
