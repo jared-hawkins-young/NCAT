@@ -39,7 +39,7 @@ const Layout = () => {
                 <div className={styles.headerContainer} ref={menuRef}>
                     <Link to="/" className={styles.headerTitleContainer}>
                         <img src="/public/bulldog.png" alt="NC A&T Logo" style={{ width: "120px", height: "120px" }} />
-                        <h3 className={styles.headerTitle}>NC A&T</h3>
+                        <h3 className={styles.headerTitle}>NCAT AGGIES</h3>
                     </Link>
                     <nav>
                         <ul className={`${styles.headerNavList} ${menuOpen ? styles.show : ""}`}>
