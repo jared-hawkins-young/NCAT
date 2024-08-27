@@ -353,7 +353,11 @@ const Chat = () => {
                     {!lastQuestionRef.current ? (
                         <div className={styles.chatEmptyState}>
                             {/*<SparkleFilled fontSize={"120px"} primaryFill={"rgba(243, 187, 75)"} aria-hidden="true" aria-label="Chat logo" />*/}
-                            <img src="/bulldog.png" alt="Chat logo" style={{ width: "120px", height: "120px" }} />
+                            <img
+                                src="https://stz5i7xuiuljw4k.blob.core.windows.net/content/bulldog.png"
+                                alt="NC A&T Logo"
+                                style={{ width: "120px", height: "120px" }}
+                            />
                             <h1 className={styles.chatEmptyStateTitle}>Chat with Aggie</h1>
                             <h2 className={styles.chatEmptyStateSubtitle}>Ask anything or try an example</h2>
                             <ExampleList onExampleClicked={onExampleClicked} useGPT4V={useGPT4V} />
