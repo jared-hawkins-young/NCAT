@@ -356,7 +356,7 @@ const Chat = () => {
                             <img
                                 src="https://stz5i7xuiuljw4k.blob.core.windows.net/content/bulldog.png"
                                 alt="NC A&T Logo"
-                                style={{ width: "120px", height: "120px" }}
+                                style={{ width: "160px", height: "auto" }}
                             />
                             <h1 className={styles.chatEmptyStateTitle}>Chat with Aggie</h1>
                             <h2 className={styles.chatEmptyStateSubtitle}>Ask anything or try an example</h2>

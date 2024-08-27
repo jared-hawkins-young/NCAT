@@ -41,7 +41,7 @@ const Layout = () => {
                         <img
                             src="https://stz5i7xuiuljw4k.blob.core.windows.net/content/blue_yellow.png"
                             alt="NC A&T Logo"
-                            style={{ width: "120px", height: "120px" }}
+                            style={{ width: "90px", height: "auto" }}
                         />
                         <h3 className={styles.headerTitle}>NC A&T</h3>
                     </Link>
